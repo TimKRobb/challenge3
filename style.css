@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+h1 {
+	margin: 15px 0px 0px;
+}
+
+h2 {
+	margin: 10px 0px 0px;
+}
+
+input {
+	margin: 10px 0px;
+	font-family: Tahoma, sans-serif;
+	font-size: 1.4em;
+	color: #1111ee;
+	text-align: center;
+}
+
+section#citylist {
+	margin: 5px 0px 0px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.citymatch {
+	margin: 5px 0px 0px 0px;
+	background-color: lightblue;
+	color: #1111ee;
+	border-radius: 5px;
+	max-width: 500px;
+	width: 90%;
+	font-weight: 900;
+	font-size: 1.1em;
+}
